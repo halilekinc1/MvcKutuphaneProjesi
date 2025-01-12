@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1fdf538a6dfe4e84a1b9ef3ffa878f34" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="DB_LIBRARYModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLCEZALAR" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLDUYURULAR" Width="1.5" PointX="7.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLHAKKIMIZDA" Width="1.5" PointX="8.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLHAREKETLER" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLILETISIM" Width="1.5" PointX="8.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLKASA" Width="1.5" PointX="5.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLKATEGORI" Width="1.5" PointX="1.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLKITAP" Width="1.5" PointX="3.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLMESAJLAR" Width="1.5" PointX="9.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLPERSONELLER" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLUYELER" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLYAZAR" Width="1.5" PointX="1.5" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="DB_LIBRARYModel.FK_TBL_CEZALAR_TBL_HAREKETLER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_LIBRARYModel.FK_TBL_CEZALAR_TBL_UYELER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_LIBRARYModel.FK_TBL_HAREKETLER_TBL_KITAP" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_LIBRARYModel.FK_TBL_HAREKETLER_TBL_PERSONELLER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_LIBRARYModel.FK_TBL_HAREKETLER_TBL_UYELER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_LIBRARYModel.FK_TBL_KITAP_TBL_KATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_LIBRARYModel.FK_TBL_KITAP_TBL_YAZAR" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DB_LIBRARYModel.TBLADMIN" Width="1.5" PointX="0.75" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
